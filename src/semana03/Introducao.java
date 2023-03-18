@@ -17,27 +17,27 @@ public class Introducao {
              * byte, short, int, long
              */
 
-            byte n1 = 100; // 1 byte - -128 a 127
-            short n2 = 3000; // 2 bytes - -32768 a 32767
-            int n3 = 21321321; // 4 bytes - 2 bilhoes
-            long n4 = 32322323; // 8 bytes
+            //byte n1 = 100; // 1 byte - -128 a 127
+            //short n2 = 3000; // 2 bytes - -32768 a 32767
+            //int n3 = 21321321; // 4 bytes - 2 bilhoes
+            //long n4 = 32322323; // 8 bytes
 
             //Ponto flutuante
-            float nota1 = 10.34343f; // 4 bytes
-            double nota2 = 10.276354915; // 8 bytes
+            //float nota1 = 10.34343f; // 4 bytes
+            //double nota2 = 10.276354915; // 8 bytes
 
             //Char
-            char letra = 'A';
+            //char letra = 'A';
 
             //Boolean
-            boolean ligado = true;
+            //boolean ligado = true;
             //Java 10 - inferência de tipo com var
-            var idade3 = 15;
-            var nome2 = "maria";
+            //var idade3 = 15;
+            //var nome2 = "maria";
 
             //Constante - keyword final
-            final double teste = 20.2;
-            final double PI = 3;
+            //final double teste = 20.2;
+            //final double PI = 3;
 
             //Entrada e saída de dados
             //Entrada - Classe Scanner
