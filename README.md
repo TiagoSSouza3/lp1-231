@@ -14,6 +14,8 @@ Repositorio desrinados aos conteúdos de Linguagem de Programação 1.
     - Criação de projetos Java
     - Introdução a linguagem Java
 - Semana 04 
-    -Estruturas de controle
-- semana 05
+    - Estruturas de controle
+- Semana 05
     - Exercicios
+- Semana06
+    - Metodos

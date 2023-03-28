@@ -19,19 +19,19 @@ public class ex02 {
             System.out.println("Seu IMC é: " + IMC + ("\n Voce esta abaixo do peso"));
         }
 
-        if (IMC >= 18.5 && IMC <= 24.9) {
+        if (IMC >= 18.5 && IMC < 25) {
         System.out.println("Seu IMC é: " + IMC + ("\n Voce esta no peso ideal"));
         } 
 
-        if (IMC >= 25 && IMC <= 29.9) {
+        if (IMC >= 25 && IMC < 30) {
             System.out.println("Seu IMC é: " + IMC + ("\n Voce esta acima do peso"));
         }
 
-        if (IMC >= 30 && IMC <= 34.9) {
+        if (IMC >= 30 && IMC < 35) {
             System.out.println("Seu IMC é: " + IMC + ("\n Voce esta com obesidade classe 1"));
         }
 
-        if (IMC >= 35 && IMC <= 39.9) {
+        if (IMC >= 35 && IMC < 40) {
             System.out.println("Seu IMC é: " + IMC + ("\n Voce esta com obesidade classe 2"));
             
         }
