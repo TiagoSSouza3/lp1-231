@@ -17,5 +17,7 @@ Repositorio desrinados aos conteúdos de Linguagem de Programação 1.
     - Estruturas de controle
 - Semana 05
     - Exercicios
-- Semana06
+- Semana 06
     - Metodos
+- Semana 07
+    - Exercicios de preparação pra prova
