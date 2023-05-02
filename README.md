@@ -21,3 +21,5 @@ Repositorio desrinados aos conteúdos de Linguagem de Programação 1.
     - Metodos
 - Semana 07
     - Exercicios de preparação pra prova
+- Semana 10 
+    - Introdução a Orientação Objeto
