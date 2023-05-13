@@ -27,14 +27,18 @@ public class Pessoa {
     public String getSituacao(){
         double pesoideal = peso - (24.9 * altura * altura);
 
-        if (pesoideal < 0){
-            return "GANHAR";
-        }else {
-            if (pesoideal > 0){
-                return "PERDER";
-            }else{
-                return "NORMAL";
+        if(calcularIMC() > 18.5 && calcularIMC() < 25){
+            return "NORMAL";
+        }else{
+            if (pesoideal < 0){
+                return "GANHAR";
+            }else {
+                if (pesoideal > 0){
+                    return "PERDER";
+                }
             }
         }
+
+        return "Fora de Escala";
     }
 }
