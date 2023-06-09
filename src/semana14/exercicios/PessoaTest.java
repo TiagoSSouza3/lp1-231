@@ -7,17 +7,35 @@ import org.junit.jupiter.api.Test;
 public class PessoaTest {
 
     @Test
-    public void testarConstrutorPeso(){
+    public void testarConstrutorPesoEGetPeso(){
         Pessoa pessoa1 = new Pessoa(1.80, 60);
 
-        assertEquals(60, pessoa1.peso);
+        assertEquals(60, pessoa1.getPeso());
     }
 
     @Test
-    public void testarConstrutorAltura(){
+    public void testarConstrutorAlturaEGetAltura(){
         Pessoa pessoa1 = new Pessoa(1.80, 60);
 
-        assertEquals(1.80, pessoa1.altura);
+        assertEquals(1.80, pessoa1.getAltura());
+    }
+
+    @Test
+    public void testarSetAltura(){
+        Pessoa pessoa1 = new Pessoa(1.80, 60);
+        
+        pessoa1.setAltura(1.90);
+
+        assertEquals(1.90, pessoa1.getAltura());
+    }
+
+    @Test
+    public void testarSetPeso(){
+        Pessoa pessoa1 = new Pessoa(1.80, 60);
+        
+        pessoa1.setPeso(80);
+
+        assertEquals(80, pessoa1.getPeso());
     }
 
     @Test

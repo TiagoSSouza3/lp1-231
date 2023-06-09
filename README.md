@@ -27,3 +27,5 @@ Repositorio desrinados aos conteúdos de Linguagem de Programação 1.
     - Exercicios de Orientação Objeto
 - Semana 12 
     - Contrutores
+- Semana 14
+    - Get & Set

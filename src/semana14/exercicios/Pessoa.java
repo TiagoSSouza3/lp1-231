@@ -1,7 +1,7 @@
 package semana14.exercicios;
 
 public class Pessoa {
-    double altura, peso;
+    private double altura, peso;
 
     public Pessoa(double altura, double peso){
         this.altura = altura;
@@ -45,5 +45,21 @@ public class Pessoa {
         }
 
         return "Fora de Escala";
+    }
+
+    public double getAltura(){
+        return altura;
+    }
+
+    public double getPeso(){
+        return peso;
+    }
+
+    public void setAltura(double altura){
+        this.altura = altura;
+    }
+
+    public void setPeso(double peso){
+        this.peso = peso;
     }
 }

@@ -33,13 +33,20 @@ public class ContaTest {
     }
 
     @Test
+    public void testarGetSaldo(){
+        Conta conta1 = new Conta(345, "Tiago Souza");
+
+        assertEquals(conta1.getSaldo(), 0);
+    }
+
+    @Test
     public void sacarComSaldoPositivo(){
         Conta conta1 = new Conta(345, "Tiago Souza");
-        conta1.depositar(500);
+        conta1.depositar(300);
 
         conta1.sacar(200);
 
-        assertEquals(conta1.getSaldo(), 100);
+        assertEquals(100, conta1.getSaldo());
     }
 
     @Test

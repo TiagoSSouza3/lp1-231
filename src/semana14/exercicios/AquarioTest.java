@@ -12,18 +12,14 @@ public class AquarioTest {
     public void calcularVolumeComTresParametros(){
         Aquario aqua1 = new Aquario(40, 20, 30);
 
-        float volume = aqua1.calcularVolume();
-
-        assertEquals(24.0, volume);
+        assertEquals(24.0, aqua1.calcularVolume());
     }
 
     @Test
     public void calcularVolumeComApenasUmParametro(){
         Aquario aqua1 = new Aquario(30);
 
-        float volume = aqua1.calcularVolume();
-
-        assertEquals(27.0, volume);
+        assertEquals(27.0, aqua1.calcularVolume());
     }
 
     @Test
@@ -33,9 +29,7 @@ public class AquarioTest {
         float tempIdeal = 30;
         float tempAquario = 17;
 
-        float termostato = aqua1.calcularPotenciaDoTermostato(tempIdeal, tempAquario);
-
-        assertEquals(39.0, termostato);
+        assertEquals(39.0, aqua1.calcularPotenciaDoTermostato(tempIdeal, tempAquario));
     }
 
     @Test
@@ -45,9 +39,7 @@ public class AquarioTest {
         float tempAquario = -5;
         float tempAmbiente = 20;
 
-        float termostato = aqua1.calcularPotenciaDoTermostato(tempAquario, tempAmbiente);
-
-        assertEquals(75.0, termostato);
+        assertEquals(75.0, aqua1.calcularPotenciaDoTermostato(tempAquario, tempAmbiente));
     }
 
     @Test
@@ -64,27 +56,21 @@ public class AquarioTest {
     public void getValorAltura(){
         Aquario aqua1 = new Aquario(100, 20, 30);
 
-        float altura1 = aqua1.getAltura();
-
-        assertEquals(100, altura1);
+        assertEquals(100, aqua1.getAltura());
     }
 
     @Test
     public void getValorComprimento(){
         Aquario aqua1 = new Aquario(100, 20, 30);
 
-        float comprimento1 = aqua1.getComprimento();
-
-        assertEquals(30, comprimento1);
+        assertEquals(30, aqua1.getComprimento());
     }
 
     @Test
     public void getValorLargura(){
         Aquario aqua1 = new Aquario(100, 20, 30);
 
-        float largura1 = aqua1.getLargura();
-
-        assertEquals(20, largura1);
+        assertEquals(20, aqua1.getLargura());
     }
 
     @Test
@@ -92,9 +78,8 @@ public class AquarioTest {
         Aquario aqua1 = new Aquario(100, 20, 30);
 
         aqua1.setLargura(50);
-        float largura1 = aqua1.getLargura();
 
-        assertEquals(50, largura1);
+        assertEquals(50, aqua1.getLargura());
     }
 
     @Test
@@ -124,9 +109,8 @@ public class AquarioTest {
         Aquario aqua1 = new Aquario(100, 20, 30);
 
         aqua1.setComprimento(50);
-        float comprimento1 = aqua1.getComprimento();
 
-        assertEquals(50, comprimento1);
+        assertEquals(50, aqua1.getComprimento());
     }
 
     @Test
@@ -156,9 +140,8 @@ public class AquarioTest {
         Aquario aqua1 = new Aquario(100, 20, 30);
 
         aqua1.setAltura(50);
-        float altura1 = aqua1.getAltura();
 
-        assertEquals(50, altura1);
+        assertEquals(50, aqua1.getAltura());
     }
 
     @Test
