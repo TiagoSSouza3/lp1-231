@@ -1,4 +1,4 @@
-package semana17.exercicio1;
+package semana19;
 
 public class ContaCorrente extends Conta {
 
@@ -11,17 +11,19 @@ public class ContaCorrente extends Conta {
     
     @Override
     public double calcularTarifa(){
-        return tarifa * limite;
+        return tarifa * 1.5;
     }
 
     @Override
     public void sacar(double valor){
-        if(0 > saldo - valor){
+        if(valor > saldo + limite){
+            throw new RuntimeException("O valor é maior que o seu saldo e seu limite");
+        }
+        if(saldo > valor){
             saldo = 0;
             valor -= saldo;
-            if(0 > limite - valor){
-               System.out.println("O valor que vc quer sacar é maior que seu limite");
-            } else { limite -= valor; }
-        } else { saldo -= valor; }
+            limite -= valor;
+        }
+        saldo -= valor;
     }
 }
