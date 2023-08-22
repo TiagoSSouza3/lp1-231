@@ -31,3 +31,7 @@ Repositorio desrinados aos conteúdos de Linguagem de Programação 1.
     - Get & Set
 - Semana 17
     - Generalização Especialização e Herança
+- Semana 19
+    - Classe Abstrata e Polimorfismo
+- Semana 20
+    - Exercicio de Herança
